@@ -2,7 +2,7 @@
 
 **Web Applications Programming and Engineering | Semester Project | Milestone 1**
 
-REELHOUSE is a responsive movie-discovery website made with React. The aim is to help visitors find a film quickly without an overwhelming interface. It uses a small, fictional catalog of 12 movies, each with an original illustration and the details people normally look for before deciding what to watch.
+REELHOUSE is a responsive movie-discovery website made with React. The aim is to help visitors find a film quickly without an overwhelming interface. It uses a small, fictional catalog of 12 movies, each with a credited cinematic photograph and the details people normally look for before deciding what to watch.
 
 This repository contains the **Milestone 1 React single-page application prototype only**. There is no API, database, or working authentication yet. Those belong to Milestone 2.
 
@@ -26,7 +26,7 @@ Individual GitHub contributions must be made from the respective student account
 - Shared header and footer, reusable components, props, functional components, and React hooks.
 - Responsive desktop, tablet, and mobile layouts, including mobile navigation.
 - Empty search results, input labels, form validation, and readable status feedback.
-- Original SVG movie artwork bundled locally rather than relying on a poster-image API.
+- Cinematic Unsplash photos downloaded locally with source credits; no runtime image API required.
 
 ## Stack
 
@@ -100,7 +100,7 @@ This means a search for `signal` with the Thriller genre, for example, still use
 REELHOUSE-Milestone-1/
 ├── public/
 │   ├── favicon.svg
-│   └── posters/             # 12 original local SVG illustrations
+│   └── posters/             # 12 local JPG photo posters plus retained SVG backups
 ├── src/
 │   ├── components/          # Header, Footer, FilterBar, MovieCard, ScrollToTop
 │   ├── data/movies.js       # 12 local records, genres, sort options
@@ -155,6 +155,11 @@ A practical division of work is: one member reviews the catalog and listing, ano
 
 ## Academic note
 
-The film titles, synopses, directors, and ratings are **fictional mock records** created solely to demonstrate the interface. None of the ratings or details should be interpreted as factual entries in a public movie database. The movie artwork is original, locally stored SVG illustration, not licensed film-poster photography.
+The film titles, synopses, directors, and ratings are **fictional mock records** created solely to demonstrate the interface. None of the ratings or details should be interpreted as factual entries in a public movie database. The current movie visuals are licensed cinematic stock photographs representing fictional films, not official film posters. Sources are documented in PHOTO-CREDITS.md.
 
 See `AI-USE.md` for the separate assistance disclosure required by the assignment instructions.
+
+
+## Photo sources
+
+See [PHOTO-CREDITS.md](PHOTO-CREDITS.md) for the selected photographers, source links, licensing, and installation details.

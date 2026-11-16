@@ -12,7 +12,7 @@ export default function MovieDetailPage({ movies }) {
   return (
     <section className="movie-detail">
       <div className="layout-wrap"><Link className="back-link" to="/"><ArrowLeft size={18}/> Back to collection</Link>
-        <div className="detail-layout"><div className="detail-poster"><img src={movie.poster} alt={`Original film artwork for ${movie.title}`}/></div>
+        <div className="detail-layout"><div className="detail-poster"><img src={movie.poster} alt={`Cinematic photograph representing ${movie.title}`}/></div>
           <div className="detail-content"><span className="eyebrow detail-eyebrow"><span className="eyebrow-line"/> THE REELHOUSE COLLECTION</span><h1>{movie.title}<span>.</span></h1><div className="detail-tags"><span>{movie.genre}</span><span>{movie.year}</span><span>{minutesToTime(movie.duration)}</span></div><p className="detail-lede">{movie.synopsis}</p>
           <div className="detail-rating"><Star size={22} fill="currentColor"/><strong>{movie.rating.toFixed(1)}</strong><span>/ 10 · Collection rating</span></div>
           <div className="detail-facts"><div><UserRound size={18}/><span>Directed by</span><strong>{movie.director}</strong></div><div><Globe2 size={18}/><span>Language</span><strong>{movie.language}</strong></div><div><Clock3 size={18}/><span>Runtime</span><strong>{minutesToTime(movie.duration)}</strong></div></div>

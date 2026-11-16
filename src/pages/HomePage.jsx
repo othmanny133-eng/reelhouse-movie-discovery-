@@ -44,9 +44,9 @@ export default function HomePage({ movies }) {
           </div>
           <div className="hero-showcase" aria-label="Featured movie artwork">
             <div className="showcase-halo"/>
-            <div className="back-poster back-poster-left"><img src="/posters/northbound.svg" alt="Northbound film illustration"/></div>
-            <div className="back-poster back-poster-right"><img src="/posters/after-the-rain.svg" alt="After the Rain film illustration"/></div>
-            <Link to="/movies/midnight-atlas" className="feature-poster"><img src="/posters/midnight-atlas.svg" alt="Midnight Atlas film illustration"/><span className="feature-poster-shade"/><span className="feature-poster-details"><small>THE FEATURED PICK</small><strong>MIDNIGHT<br/>ATLAS</strong><span>SCI-FI · 2025</span></span></Link>
+            <div className="back-poster back-poster-left"><img src="/posters/northbound.jpg" alt="Northbound cinematic photograph"/></div>
+            <div className="back-poster back-poster-right"><img src="/posters/after-the-rain.jpg" alt="After the Rain cinematic photograph"/></div>
+            <Link to="/movies/midnight-atlas" className="feature-poster"><img src="/posters/midnight-atlas.jpg" alt="Midnight Atlas cinematic photograph"/><span className="feature-poster-shade"/><span className="feature-poster-details"><small>THE FEATURED PICK</small><strong>MIDNIGHT<br/>ATLAS</strong><span>SCI-FI · 2025</span></span></Link>
             <div className="floating-rating"><span><Star size={15} fill="currentColor"/> 8.9</span><small>Editor's pick</small></div>
             <div className="floating-round"><Clapperboard size={20}/></div>
           </div>

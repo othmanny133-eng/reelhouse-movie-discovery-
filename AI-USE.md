@@ -20,3 +20,7 @@ ChatGPT was used to assist with planning the React single-page application, draf
 The group is responsible for inspecting, testing, understanding, maintaining, and explaining all submitted materials. Students should edit this declaration to accurately reflect any additional assistance or changes made during their own development. No credentials or private keys were supplied.
 
 This declaration is maintained separately from the public-facing website because the project brief specifically requires disclosure of significant AI-assisted development work.
+
+## Photo selection update
+
+Photographic poster references were selected with search and coding assistance, then incorporated as licensed example images. The selected source photographs and their authors are listed in PHOTO-CREDITS.md. The originally created SVG illustrations remain available in the repository.
