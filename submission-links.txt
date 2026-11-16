@@ -1,0 +1,27 @@
+WEB APPLICATIONS PROGRAMMING AND ENGINEERING
+SEMESTER GROUP PROJECT — MILESTONE 1
+
+PROJECT TITLE
+REELHOUSE — Movie Discovery
+
+TEAM MEMBERS
+1. Full Name: Mohammed Abdullah Fakhri Samhan    Student ID: 2433192
+2. Full Name: Ahmad Emad Hussain Abdallah    Student ID: 2433053
+
+PUBLIC SHARED GITHUB REPOSITORY
+[INSERT REAL GITHUB REPOSITORY URL AFTER CREATING IT]
+
+GITHUB COMMIT HASH FOR SUBMITTED VERSION
+[INSERT THE EXACT COMMIT SHA THAT MATCHES THE ZIP FILE]
+
+DEPLOYED REACT FRONT-END URL (RENDER STATIC SITE)
+[INSERT REAL WORKING RENDER SITE URL AFTER DEPLOYMENT]
+
+SUBMISSION DATE
+[ADD THE ACTUAL SUBMISSION DATE]
+
+NOTES
+- Replace every bracketed field before submitting through Moodle.
+- Submit this file together with the source ZIP, README.md, and AI-USE.md.
+- Do not submit node_modules.
+- Check that the public site and all page routes work correctly.
